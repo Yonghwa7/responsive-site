@@ -1,0 +1,116 @@
+.flexible-images  {
+  background-image: lesson7img.jpg;
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+}
+
+.mobile {
+  display: flex;
+  flex-direction: row;
+}
+
+section
+{
+    padding: 60px 0;
+}
+section .container
+{
+    width: 90%;
+}
+section h2
+{
+    font-size: 3.2rem;
+}
+
+.text-center{
+  text-align: center;
+}
+
+#kyoto
+{
+    background-color: #bea300;
+}
+#kyoto .container
+{
+    display: -webkit-flex;
+    display:         flex;
+    justify-content: space-between;
+    margin:0 auto;
+}
+#kyoto h2
+{
+    margin-bottom: 60px;
+    color: #fdfcf6;
+}
+#kyoto .kyoto-box
+{
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-flex: 1;
+            flex: 1;
+    margin: 0px 10px;
+    padding: 20px;
+    background-color: #fdfcf6;
+}
+#kyoto i
+{
+    font-size: 4.5rem;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 5px;
+    padding-top: 15px;
+    text-align: center;
+    color: #fff;
+    background-color: #14c0c9;
+}
+#kyoto h3
+{
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #14c0c9;
+}
+
+#contact ul
+{
+    margin-top: 60px;
+    text-align: center;
+}
+#contact ul li
+{
+    font-size: 2.8rem;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    margin-right: 20px;
+    text-align: center;
+    vertical-align: top;
+}
+#contact ul li:last-child
+{
+    margin-right: 0;
+}
+
+#contact ul a
+{
+    display: block;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    -webkit-border-radius: 10%;
+       -moz-border-radius: 10%;
+            border-radius: 10%;
+    background-color: #14c0c9;
+}
+#contact ul a:hover
+{
+    background-color: #0f949b;
+}
+
